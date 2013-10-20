@@ -2,14 +2,19 @@
     "manifest_version": 2,
     "name": "Amazon Search Auto-Focus",
     "description": "Automatically focus on search bar when visiting Amazon",
-    "version": "2",
-    "permissions": [
-        "http://*.amazon.com/",
-        "https://*.amazon.com/"
-    ],
+    "version": "3",
     "content_scripts": [
         {
-            "matches": ["<all_urls>"],
+            "matches": [
+                "http://*.amazon.com/",
+                "http://*.amazon.it/",
+                "http://*.amazon.fr/",
+                "http://*.amazon.de/",
+                "http://*.amazon.ca/",
+                "http://*.amazon.co.uk/",
+                "http://*.amazon.cn/",
+                "http://*.amazon.co.jp/"
+            ],
             "js": ["script.js"]
         }
     ]
