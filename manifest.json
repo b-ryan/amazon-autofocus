@@ -3,6 +3,9 @@
     "name": "Amazon Search Auto-Focus",
     "description": "Automatically focus on search bar when visiting Amazon",
     "version": "3",
+    "icons": {
+        "128": "amazon_128.png"
+    },
     "content_scripts": [
         {
             "matches": [
