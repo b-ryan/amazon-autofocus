@@ -13,7 +13,14 @@
                 "*://*.amazon.ca/",
                 "*://*.amazon.co.uk/",
                 "*://*.amazon.cn/",
-                "*://*.amazon.co.jp/"
+                "*://*.amazon.co.jp/",
+                "*://*.amazon.com.mx/",
+                "*://*.amazon.com.au/",
+                "*://*.amazon.com.br/",
+                "*://*.amazon.nl/",
+                "*://*.amazon.it/",
+                "*://*.amazon.es/",
+                "*://*.amazon.in/"
             ],
             "js": ["script.js"]
         }
