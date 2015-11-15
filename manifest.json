@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Amazon Search Auto-Focus",
     "description": "Automatically focus on search bar when visiting Amazon",
-    "version": "4",
+    "version": "4.1",
     "icons": {
         "128": "amazon_128.png"
     },
